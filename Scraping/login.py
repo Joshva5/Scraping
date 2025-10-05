@@ -26,7 +26,7 @@ print("sign button clicked successfully")
 
    
 #step 5: fill the empty field
-driver.find_element(By.ID,"ap_email_login").send_keys("9840028345")
+driver.find_element(By.ID,"ap_email_login").send_keys("Enter your number")
 
 ctn_btn = WebDriverWait(driver,10).until(
     EC.element_to_be_clickable((By.CLASS_NAME,"a-button-input"))
